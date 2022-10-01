@@ -1,12 +1,12 @@
 import "./style.css";
 import { setupCounter } from "./counter";
-import { animal } from "./constants";
+import { animal1 } from "./constants";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>
     <h1>Vite + TypeScript</h1>
     <div class="card">
-      <p>${animal.name}</p>
+      <p>${animal1.emitSound()}</p>
       <button id="counter" type="button"></button>
     </div>
   </div>
